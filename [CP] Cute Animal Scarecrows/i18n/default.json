@@ -1,0 +1,41 @@
+{
+    "ReplaceVanillaScarecrowsDesc": "Toggle to replace vanilla scarecrows with the animal of your choice. If set to false, catcrows and dogcrows are added as custom scarecrows. WARNING: Setting this to true after you have obtained catcrows and dogcrows may create unintended effects.",
+    "DogTypeDesc": "Choose the dog type you want. Option 1 has a bigger nose. Check the images on the Nexus Page for more info.",
+    "AnimalDesc": "Choose the animal you want as a replacement of the scarecrow. Only applies when you configurate to replace.",
+    "DefaultScarecrowCostume": "Choose whether you want the default cat or dogcrow to have a costume (e.g. the one you can craft at Farming Lvl 1). NOTE: Cat/Dogcrows you already have will remain in the previous setting. Only new cat/dogcrows will use the new config.",
+    "Catcrow.01": "Catcrow",
+    "Catcrow.02": "Deluxe Catcrow",
+    "CatcrowDesc.01": "Collect catcrows! 1 out of 10.",
+    "CatcrowDesc.02": "Collect catcrows! 2 out of 10. This one's a deluxe catcrow, with a radius of 16 \"tiles\"!",
+    "CatcrowDesc.03": "Collect catcrows! 3 out of 10. This one's a little witch.",
+    "CatcrowDesc.04": "Collect catcrows! 4 out of 10. This one's a little witch.",
+    "CatcrowDesc.05": "Collect catcrows! 5 out of 10. This one's a little alien.",
+    "CatcrowDesc.06": "Collect catcrows! 6 out of 10. This one's a little snowman.",
+    "CatcrowDesc.07": "Collect catcrows! 7 out of 10. This one has a little wig!",
+    "CatcrowDesc.08": "Collect catcrows! 8 out of 10. This one's a little dwarf.",
+    "CatcrowDesc.09": "Collect catcrows! 9 out of 10. This one's a little raccoon.",
+    "CatcrowDesc.10": "Collect catcrows! 10 out of 10. This one is so colorful.",
+    
+    "Dogcrow.01": "Dogcrow",
+    "Dogcrow.02": "Deluxe Dogcrow",
+    "DogcrowDesc.01": "Collect dogcrows! 1 out of 10.",
+    "DogcrowDesc.02": "Collect dogcrows! 2 out of 10. This one's a deluxe dogcrow, with a radius of 16 \"tiles\"!",
+    "DogcrowDesc.03": "Collect dogcrows! 3 out of 10. This one's a little witch.",
+    "DogcrowDesc.04": "Collect dogcrows! 4 out of 10. This one's a little witch.",
+    "DogcrowDesc.05": "Collect dogcrows! 5 out of 10. This one's a little alien.",
+    "DogcrowDesc.06": "Collect dogcrows! 6 out of 10. This one's a little snowman.",
+    "DogcrowDesc.07": "Collect dogcrows! 7 out of 10. This one has a little wig!",
+    "DogcrowDesc.08": "Collect dogcrows! 8 out of 10. This one's a little dwarf.",
+    "DogcrowDesc.09": "Collect dogcrows! 9 out of 10. This one's a little raccoon.",
+    "DogcrowDesc.10": "Collect dogcrows! 10 out of 10. This one is so colorful.",
+
+    "CollectAllCatcrowMail": "Dear @,^^Your dedication is truly impressive...^^Only a select few manage to acquire the complete Catcrow collection!^^The following is an exclusive blueprint only given to the most dedicated Catcrow collectors.^   -The Z.C. Catcrow Society%item craftingRecipe {{ModId}}_CatDeluxe %%[#]From The Catcrow Society",
+    "CollectAllDogcrowMail": "Dear @,^^Your dedication is truly impressive...^^Only a select few manage to acquire the complete Dogcrow collection!^^The following is an exclusive blueprint only given to the most dedicated Dogcrow collectors.^   -The Z.C. Dogcrow Society%item craftingRecipe {{ModId}}_CatDeluxe %%[#]From The Dogcrow Society",
+
+    "Recipe": "(Recipe)",
+
+    "CatTreat.DisplayName": "Cat Treat",
+    "CatTreat.Desc": "Treats cats love. Smells fishy.",
+    "DogTreat.DisplayName": "Dog Treat",
+    "DogTreat.Desc": "Treats dogs love. Pretty stinky."
+}

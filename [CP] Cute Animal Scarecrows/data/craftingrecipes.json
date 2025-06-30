@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add crafting recipes",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModId}}_CatTreat": "-4 1//{{ModId}}_CatTreat///",
+                "{{ModId}}_DogTreat": "881 2//{{ModId}}_DogTreat///",
+                "{{ModId}}_Catcrow": "{{ModId}}_CatTreat 1 382 1 771 20//{{ModId}}_Catcrow/true/s Farming 1/",
+                "{{ModId}}_CatRare1": "{{ModId}}_CatTreat 1 382 1 305 1//{{ModId}}_CatRare1/true/null/",
+                "{{ModId}}_CatRare2": "{{ModId}}_CatTreat 1 382 1 308 1//{{ModId}}_CatRare2/true/null/",
+                "{{ModId}}_CatRare3": "{{ModId}}_CatTreat 1 382 1 203 1//{{ModId}}_CatRare3/true/null/",
+                "{{ModId}}_CatRare4": "{{ModId}}_CatTreat 1 382 1 Carrot 1//{{ModId}}_CatRare4/true/null/",
+                "{{ModId}}_CatRare5": "{{ModId}}_CatTreat 1 382 1 178 1//{{ModId}}_CatRare5/true/null/",
+                "{{ModId}}_CatRare6": "{{ModId}}_CatTreat 1 382 1 286 1//{{ModId}}_CatRare6/true/null/",
+                "{{ModId}}_CatRare7": "{{ModId}}_CatTreat 1 382 1 (H)RaccoonHat 1//{{ModId}}_CatRare7/true/null/",
+                "{{ModId}}_CatRare8": "{{ModId}}_CatTreat 1 382 1 86 1//{{ModId}}_CatRare8/true/null/",
+                "{{ModId}}_CatDeluxe": "{{ModId}}_CatTreat 1 386 1 771 20//{{ModId}}_CatDeluxe/true/null/",
+                "{{ModId}}_Dogcrow": "{{ModId}}_DogTreat 1 382 1 771 20//{{ModId}}_Dogcrow/true/s Farming 1/",
+                "{{ModId}}_DogRare1": "{{ModId}}_DogTreat 1 382 1 305 1//{{ModId}}_DogRare1/true/null/",
+                "{{ModId}}_DogRare2": "{{ModId}}_DogTreat 1 382 1 308 1//{{ModId}}_DogRare2/true/null/",
+                "{{ModId}}_DogRare3": "{{ModId}}_DogTreat 1 382 1 203 1//{{ModId}}_DogRare3/true/null/",
+                "{{ModId}}_DogRare4": "{{ModId}}_DogTreat 1 382 1 Carrot 1//{{ModId}}_DogRare4/true/null/",
+                "{{ModId}}_DogRare5": "{{ModId}}_DogTreat 1 382 1 178 1//{{ModId}}_DogRare5/true/null/",
+                "{{ModId}}_DogRare6": "{{ModId}}_DogTreat 1 382 1 286 1//{{ModId}}_DogRare6/true/null/",
+                "{{ModId}}_DogRare7": "{{ModId}}_DogTreat 1 382 1 (H)RaccoonHat 1//{{ModId}}_DogRare7/true/null/",
+                "{{ModId}}_DogRare8": "{{ModId}}_DogTreat 1 382 1 86 1//{{ModId}}_DogRare8/true/null/",
+                "{{ModId}}_DogDeluxe": "{{ModId}}_DogTreat 1 386 1 771 20//{{ModId}}_DogDeluxe/true/null/"
+            }
+        }
+    ]
+}

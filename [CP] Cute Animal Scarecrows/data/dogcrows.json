@@ -1,0 +1,263 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add dog scarecrow",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_Dogcrow": {
+                    "Name": "{{ModId}}_Dogcrow",
+                    "DisplayName": "{{i18n:Dogcrow.01}}",
+                    "Description": "{{i18n:DogcrowDesc.01}}",
+                    "Price": 100,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            },
+            "When": {
+                "DefaultScarecrowCostume": "true"
+            }
+        },
+        {
+            "LogName": "Add dog scarecrow",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_Dogcrow": {
+                    "Name": "{{ModId}}_Dogcrow",
+                    "DisplayName": "{{i18n:Dogcrow.01}}",
+                    "Description": "{{i18n:DogcrowDesc.01}}",
+                    "Price": 100,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            },
+            "When": {
+                "DefaultScarecrowCostume": "false"
+            }
+        },
+        {
+            "LogName": "Add dog deluxe scarecrow",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogDeluxe": {
+                    "Name": "{{ModId}}_DogDeluxe",
+                    "DisplayName": "{{i18n:Dogcrow.02}}",
+                    "Description": "{{i18n:DogcrowDesc.02}}",
+                    "Price": 5000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_16"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add dog rarecrow 1",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogRare1": {
+                    "Name": "{{ModId}}_DogRare1",
+                    "DisplayName": "{{i18n:Dogcrow.01}}#3",
+                    "Description": "{{i18n:DogcrowDesc.03}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add dog rarecrow 2",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogRare2": {
+                    "Name": "{{ModId}}_DogRare2",
+                    "DisplayName": "{{i18n:Dogcrow.01}}#4",
+                    "Description": "{{i18n:DogcrowDesc.04}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add dog rarecrow 3",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogRare3": {
+                    "Name": "{{ModId}}_DogRare3",
+                    "DisplayName": "{{i18n:Dogcrow.01}}#5",
+                    "Description": "{{i18n:DogcrowDesc.05}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add dog rarecrow 4",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogRare4": {
+                    "Name": "{{ModId}}_DogRare4",
+                    "DisplayName": "{{i18n:Dogcrow.01}}#6",
+                    "Description": "{{i18n:DogcrowDesc.06}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add dog rarecrow 5",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogRare5": {
+                    "Name": "{{ModId}}_DogRare5",
+                    "DisplayName": "{{i18n:Dogcrow.01}}#7",
+                    "Description": "{{i18n:DogcrowDesc.07}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 9,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add dog rarecrow 6",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogRare6": {
+                    "Name": "{{ModId}}_DogRare6",
+                    "DisplayName": "{{i18n:Dogcrow.01}}#8",
+                    "Description": "{{i18n:DogcrowDesc.08}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add dog rarecrow 7",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogRare7": {
+                    "Name": "{{ModId}}_DogRare7",
+                    "DisplayName": "{{i18n:Dogcrow.01}}#9",
+                    "Description": "{{i18n:DogcrowDesc.09}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add dog rarecrow 8",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_DogRare8": {
+                    "Name": "{{ModId}}_DogRare8",
+                    "DisplayName": "{{i18n:Dogcrow.01}}#10",
+                    "Description": "{{i18n:DogcrowDesc.10}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\dog{{DogType}}",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "Format": "2.7.2",
+    "ConfigSchema": {
+        "ReplaceVanillaScarecrows": {
+            "AllowValues": "true, false",
+            "Description": "Toggle to replace vanilla scarecrows with the animal of your choice. If set to false, catcrows and dogcrows are added as custom scarecrows. WARNING: Setting this to true after you have obtained catcrows and dogcrows may create unintended effects.",
+            "Default": "false"
+        },
+        "DogType": {
+            "AllowValues": "1, 2",
+            "Description": "Choose the dog type you want. Option 1 has a bigger nose. Check the images on the Nexus Page for more info.",
+            "Default": "2"
+        },
+		"Animal": {
+            "AllowValues": "cat, dog",
+            "Description": "Choose the animal you want as a replacement of the scarecrow. Only applies when you configurate to replace.",
+            "Default": "cat"
+        },
+		"DefaultScarecrowCostume": {
+            "AllowValues": "true, false",
+            "Description": "Choose whether you want the default cat or dogcrow to have a costume (e.g. the one you can craft at Farming Lvl 1). NOTE: Cat/Dogcrows you already have will remain in the previous setting. Only new cat/dogcrows will use the new config.",
+            "Default": "true"
+        }
+    },
+    "Changes": [
+        {
+            "LogName": "Assets load",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/cat, Mods/{{ModId}}/dog{{DogType}}, Mods/{{ModId}}/treats" ,
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Include catcrows if config is to add separately",
+            "Action": "Include",
+            "FromFile": "data/catcrows.json",
+            "When": {
+                "ReplaceVanillaScarecrows": "false"
+            }
+        },
+        {
+            "LogName": "Include dogcrows if config is to add separately",
+            "Action": "Include",
+            "FromFile": "data/dogcrows.json",
+            "When": {
+                "ReplaceVanillaScarecrows": "false"
+            }
+        },
+        {
+            "LogName": "Include treats if config is to add separately",
+            "Action": "Include",
+            "FromFile": "data/treats.json",
+            "When": {
+                "ReplaceVanillaScarecrows": "false"
+            }
+        },
+        {
+            "LogName": "Include crafting recipes if config is to add separately",
+            "Action": "Include",
+            "FromFile": "data/craftingrecipes.json",
+            "When": {
+                "ReplaceVanillaScarecrows": "false"
+            }
+        },
+        {
+            "LogName": "Include shop data if config is to add separately",
+            "Action": "Include",
+            "FromFile": "data/shops.json",
+            "When": {
+                "ReplaceVanillaScarecrows": "false"
+            }
+        },
+        {
+            "LogName": "Include mail data if config is to add separately",
+            "Action": "Include",
+            "FromFile": "data/mail.json",
+            "When": {
+                "ReplaceVanillaScarecrows": "false"
+            }
+        },
+        {
+            "LogName": "Include tilesheet patches if config is to replace",
+            "Action": "Include",
+            "FromFile": "data/replace.json",
+            "When": {
+                "ReplaceVanillaScarecrows": "true"
+            }
+        }
+    ]
+}

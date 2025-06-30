@@ -1,0 +1,263 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add cat scarecrow",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_Catcrow": {
+                    "Name": "{{ModId}}_Catcrow",
+                    "DisplayName": "{{i18n:Catcrow.01}}",
+                    "Description": "{{i18n:CatcrowDesc.01}}",
+                    "Price": 100,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            },
+            "When": {
+                "DefaultScarecrowCostume": "true"
+            }
+        },
+        {
+            "LogName": "Add cat scarecrow",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_Catcrow": {
+                    "Name": "{{ModId}}_Catcrow",
+                    "DisplayName": "{{i18n:Catcrow.01}}",
+                    "Description": "{{i18n:CatcrowDesc.01}}",
+                    "Price": 100,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            },
+            "When": {
+                "DefaultScarecrowCostume": "false"
+            }
+        },
+        {
+            "LogName": "Add cat deluxe scarecrow",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatDeluxe": {
+                    "Name": "{{ModId}}_CatDeluxe",
+                    "DisplayName": "{{i18n:Catcrow.02}}",
+                    "Description": "{{i18n:CatcrowDesc.02}}",
+                    "Price": 5000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_16"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add cat rarecrow 1",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatRare1": {
+                    "Name": "{{ModId}}_CatRare1",
+                    "DisplayName": "{{i18n:Catcrow.01}}#3",
+                    "Description": "{{i18n:CatcrowDesc.03}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add cat rarecrow 2",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatRare2": {
+                    "Name": "{{ModId}}_CatRare2",
+                    "DisplayName": "{{i18n:Catcrow.01}}#4",
+                    "Description": "{{i18n:CatcrowDesc.04}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add cat rarecrow 3",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatRare3": {
+                    "Name": "{{ModId}}_CatRare3",
+                    "DisplayName": "{{i18n:Catcrow.01}}#5",
+                    "Description": "{{i18n:CatcrowDesc.05}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add cat rarecrow 4",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatRare4": {
+                    "Name": "{{ModId}}_CatRare4",
+                    "DisplayName": "{{i18n:Catcrow.01}}#6",
+                    "Description": "{{i18n:CatcrowDesc.06}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add cat rarecrow 5",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatRare5": {
+                    "Name": "{{ModId}}_CatRare5",
+                    "DisplayName": "{{i18n:Catcrow.01}}#7",
+                    "Description": "{{i18n:CatcrowDesc.07}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 9,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add cat rarecrow 6",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatRare6": {
+                    "Name": "{{ModId}}_CatRare6",
+                    "DisplayName": "{{i18n:Catcrow.01}}#8",
+                    "Description": "{{i18n:CatcrowDesc.08}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add cat rarecrow 7",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatRare7": {
+                    "Name": "{{ModId}}_CatRare7",
+                    "DisplayName": "{{i18n:Catcrow.01}}#9",
+                    "Description": "{{i18n:CatcrowDesc.09}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add cat rarecrow 8",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_CatRare8": {
+                    "Name": "{{ModId}}_CatRare8",
+                    "DisplayName": "{{i18n:Catcrow.01}}#10",
+                    "Description": "{{i18n:CatcrowDesc.10}}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\{{ModId}}\\cat",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "crow_scare",
+                        "crow_scare_radius_8"
+                    ]
+                }
+            }
+        }
+    ]
+}

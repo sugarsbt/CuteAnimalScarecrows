@@ -1,0 +1,342 @@
+{
+    "Changes": [
+        {
+            "LogName": "R1 at Fair",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_StardewValleyFair_StarTokens", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare1 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare1 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare1",
+                    "Price": 1000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare1",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare1 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare1 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare1",
+                    "Price": 1000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare1",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R2 at Spirit's Eve",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_SpiritsEve_Pierre", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare2 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare2 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare2",
+                    "Price": 6000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare2",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare2 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare2 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare2",
+                    "Price": 6000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare2",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R3 at Casino",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Casino", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare3 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare3 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare3",
+                    "Price": 15000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare3",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare3 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare3 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare3",
+                    "Price": 15000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare3",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R4 at Travelling Cart",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Traveler", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare4 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare4 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare4",
+                    "Price": 5000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare4",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare4 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare4 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare4",
+                    "Price": 5000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare4",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R4 at Festival of Ice",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_FestivalOfIce_TravelingMerchant", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare4 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare4 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare4",
+                    "Price": 7000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare4",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare4 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare4 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare4",
+                    "Price": 7000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare4",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R5 at Flower Dance",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_FlowerDance_Pierre", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare5 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare5 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare5",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare5",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare5 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare5 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare5",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare5",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R6 at Dwarf",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Dwarf", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare6 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare6 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare6",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare6",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare6 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare6 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare6",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare6",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R7 at Night Market d1",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_NightMarket_MagicBoat_Day1", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare7": {
+                    "Id": "{{ModId}}_CatRare7",
+                    "ItemId": "(BC){{ModId}}_CatRare7",
+                    "Price": 2500,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare7"
+                },
+                "{{ModId}}_DogRare7": {
+                    "Id": "{{ModId}}_DogRare7",
+                    "ItemId": "(BC){{ModId}}_DogRare7",
+                    "Price": 2500,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare7"
+                }
+            }
+        },
+        {
+            "LogName": "R7 at Night Market d2",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_NightMarket_MagicBoat_Day2", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare7": {
+                    "Id": "{{ModId}}_CatRare7",
+                    "ItemId": "(BC){{ModId}}_CatRare7",
+                    "Price": 2500,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare7"
+                },
+                "{{ModId}}_DogRare7": {
+                    "Id": "{{ModId}}_DogRare7",
+                    "ItemId": "(BC){{ModId}}_DogRare7",
+                    "Price": 2500,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare7"
+                }
+            }
+        },
+        {
+            "LogName": "R7 at Night Market d3",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_NightMarket_MagicBoat_Day3", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare7": {
+                    "Id": "{{ModId}}_CatRare7",
+                    "ItemId": "(BC){{ModId}}_CatRare7",
+                    "Price": 2500,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare7"
+                },
+                "{{ModId}}_DogRare7": {
+                    "Id": "{{ModId}}_DogRare7",
+                    "ItemId": "(BC){{ModId}}_DogRare7",
+                    "Price": 2500,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare7"
+                }
+            }
+        },
+        {
+            "LogName": "R7 at Raccoon Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Raccoon", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare7 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare7 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare7",
+                    "Price": -1,
+                    "TradeItemId": "259",
+                    "TradeItemAmount": "20",
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare7",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare7 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare7 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare7",
+                    "Price": -1,
+                    "TradeItemId": "259",
+                    "TradeItemAmount": "20",
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare7",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R8 at Night Market d1",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_NightMarket_MagicBoat_Day1", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare8 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare8 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare8",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare8",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare8 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare8 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare8",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare8",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R8 at Night Market d2",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_NightMarket_MagicBoat_Day2", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare8 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare8 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare8",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare8",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare8 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare8 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare8",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare8",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "R8 at Night Market d3",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_NightMarket_MagicBoat_Day3", "Items"],
+            "Entries": {
+                "{{ModId}}_CatRare8 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_CatRare8 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_CatRare8",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare8",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogRare8 {{i18n:Recipe}}": {
+                    "Id": "{{ModId}}_DogRare8 {{i18n:Recipe}}",
+                    "ItemId": "(BC){{ModId}}_DogRare8",
+                    "Price": 3000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare8",
+                    "IsRecipe": true
+                }
+            }
+        },
+        {
+            "LogName": "Add treats to AnimalShop and treat recipes",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["AnimalShop", "Items"],
+            "Entries": {
+                "{{ModId}}_CatTreat": {
+                    "Id": "{{ModId}}_CatTreat",
+                    "ItemId": "(O){{ModId}}_CatTreat",
+                    "Price": 100
+                },
+                "{{ModId}}_DogTreat": {
+                    "Id": "{{ModId}}_DogTreat",
+                    "ItemId": "(O){{ModId}}_DogTreat",
+                    "Price": 100
+                },
+                "{{ModId}}_CatTreatRecipe": {
+                    "Id": "{{ModId}}_CatTreat {{i18n:Recipe}}",
+                    "ItemId": "(O){{ModId}}_CatTreat",
+                    "Price": 1000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatTreat",
+                    "IsRecipe": true
+                },
+                "{{ModId}}_DogTreatRecipe": {
+                    "Id": "{{ModId}}_DogTreat {{i18n:Recipe}}",
+                    "ItemId": "(O){{ModId}}_DogTreat",
+                    "Price": 1000,
+                    "Condition": "!PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogTreat",
+                    "IsRecipe": true
+                }
+            }
+        }
+    ]
+}

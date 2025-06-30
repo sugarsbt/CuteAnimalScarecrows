@@ -1,0 +1,22 @@
+{
+    "Name": "Cute Animal Scarecrows",
+    "Author": "sugarsbt",
+    "Version": "1.0.0",
+    "Description": "Adds cute animal scarecrows that you can find, craft, buy, and configure.",
+    "UniqueID": "sugarsbt.cuteanimalscarecrows",
+    "UpdateKeys": ["Nexus:35243"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.7.2"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "IsRequired": "false"
+        },
+        {
+            "UniqueID": "Spiderbuttons.BETAS",
+            "IsRequired": "false"
+        }
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "Changes": [
+        {
+            "LogName": "Base cat",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat",
+                "DefaultScarecrowCostume": true
+            }
+        },
+        {
+            "LogName": "Base cat",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat",
+                "DefaultScarecrowCostume": false
+            }
+        },
+        {
+            "LogName": "Deluxe cat",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 112, "Y": 640, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat"
+            }
+        },
+        {
+            "LogName": "R8 cat",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 64, "Y": 544, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat"
+            }
+        },
+        {
+            "LogName": "R1 cat",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 96, "Y": 416, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat"
+            }
+        },
+        {
+            "LogName": "R2 cat",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 16, "Y": 448, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat"
+            }
+        },
+        {
+            "LogName": "R4, 5, 6 cats",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 0, "Y": 32, "Width": 48, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 544, "Width": 48, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat"
+            }
+        },
+        {
+            "LogName": "R7 cat",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 48, "Y": 544, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat"
+            }
+        },
+        {
+            "LogName": "R3 cat",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/cat.png",
+            "FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 96, "Y": 480, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "cat"
+            }
+        },
+
+        //dog
+        {
+            "LogName": "Base dog",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/dog{{DogType}}.png",
+            "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "dog",
+                "DefaultScarecrowCostume": true
+            }
+        },
+        {
+            "LogName": "Base dog",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/dog{{DogType}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "dog",
+                "DefaultScarecrowCostume": false
+            }
+        },
+        {
+            "LogName": "Deluxe dog",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/dog{{DogType}}.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 112, "Y": 640, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "dog"
+            }
+        },
+        {
+            "LogName": "R8 dog",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/dog{{DogType}}.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 64, "Y": 544, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "dog"
+            }
+        },
+        {
+            "LogName": "R1 dog",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/dog{{DogType}}.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 96, "Y": 416, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "dog"
+            }
+        },
+        {
+            "LogName": "R2 dog",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/dog{{DogType}}.png",
+            "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 16, "Y": 448, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "dog"
+            }
+        },
+        {
+            "LogName": "R7 dog",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/dog{{DogType}}.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 48, "Y": 544, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "dog"
+            }
+        },
+        {
+            "LogName": "R3 dog",
+            "Action": "EditImage",
+            "Target": "Tilesheets/Craftables",
+            "FromFile": "assets/dog{{DogType}}.png",
+            "FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 96, "Y": 480, "Width": 16, "Height": 32 },
+            "PatchMode": "Replace",
+            "When": {
+                "Animal": "dog"
+            }
+        }
+    ]
+}

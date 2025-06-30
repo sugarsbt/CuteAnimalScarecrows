@@ -1,0 +1,29 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add treat items",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_CatTreat": {
+                    "Name": "CatTreat",
+                    "DisplayName": "{{i18n:CatTreat.DisplayName}}",
+                    "Description": "{{i18n:CatTreat.Desc}}",
+                    "Category": -7,
+                    "Price": 50,
+                    "Texture": "Mods\\{{ModId}}\\treats",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_DogTreat": {
+                    "Name": "DogTreat",
+                    "DisplayName": "{{i18n:DogTreat.DisplayName}}",
+                    "Description": "{{i18n:CatTreat.Desc}}",
+                    "Category": -7,
+                    "Price": 50,
+                    "Texture": "Mods\\{{ModId}}\\treats",
+                    "SpriteIndex": 1
+                }
+            }
+        }
+    ]
+}

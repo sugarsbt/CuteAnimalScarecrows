@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add trigger for catcrow mail, no BETAS",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_CollectAllCatcrows": {
+                    "Id": "{{ModId}}_CollectAllCatcrows",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatCrow, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare1, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare2, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare3, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare4, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare5, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare6, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare7, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_CatRare8",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_CollectAllCatcrows tomorrow"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=Spiderbuttons.BETAS": false
+            }
+        },
+        {
+            "LogName": "Add trigger for catcrow mail, uses BETAS",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_CollectAllCatcrows": {
+                    "Id": "{{ModId}}_CollectAllCatcrows",
+                    "Trigger": "DayEnding",
+                    "Condition": "Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatCrow, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatRare1, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatRare2, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatRare3, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatRare4, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatRare5, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatRare6, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatRare7, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_CatRare8",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_CollectAllCatcrows tomorrow"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=Spiderbuttons.BETAS": true
+            }
+        },
+        {
+            "LogName": "Add trigger for dogcrow mail, no BETAS",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_CollectAllDogcrows": {
+                    "Id": "{{ModId}}_CollectAllDogcrows",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogCrow, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare1, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare2, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare3, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare4, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare5, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare6, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare7, PLAYER_HAS_CRAFTING_RECIPE Current {{ModId}}_DogRare8",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_CollectAllDogcrows tomorrow"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=Spiderbuttons.BETAS": false
+            }
+        },
+        {
+            "LogName": "Add trigger for dogcrow mail, uses BETAS",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_CollectAllDogcrows": {
+                    "Id": "{{ModId}}_CollectAllDogcrows",
+                    "Trigger": "DayEnding",
+                    "Condition": "Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogCrow, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogRare1, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogRare2, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogRare3, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogRare4, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogRare5, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogRare6, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogRare7, Spiderbuttons.BETAS_PLAYER_HAS_CRAFTED_ITEM Current {{ModId}}_DogRare8",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_CollectAllDogcrows tomorrow"
+                    ]
+                }
+            },
+            "When": {
+                "HasMod |contains=Spiderbuttons.BETAS": true
+            }
+        },
+        {
+            "LogName": "Add mail for collcted all cat/dog scarecrows",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_CollectAllCatcrows": "{{i18n:CollectAllCatcrowsMail}}",
+                "{{ModId}}_CollectAllDogcrows": "{{i18n:CollectAllDogcrowsMail}}"
+            }
+        }
+    ]
+}
