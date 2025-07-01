@@ -28,17 +28,17 @@ Choose options for basic catcrow and dogcrow sprites! Option 2 has the costume o
 ## Recommendations
 The mods below are not required but recommended.
 
-﻿[Generic Mod Config Menu﻿]([url](https://www.nexusmods.com/stardewvalley/mods/5098)) by [spacechase0]([url](https://www.nexusmods.com/stardewvalley/users/34250790))﻿ - For easy and user-friendly configuration. You can directly set configs in the configs.json of this mod, but GMCM is recommended and supports live changes in-game.
-[Button's Extra Trigger Action Stuff (BETAS)﻿]([url](https://www.nexusmods.com/stardewvalley/mods/27100)) by [Spiderbuttons]([url](https://www.nexusmods.com/stardewvalley/users/177615852))﻿ - For better triggers regarding the letter sent when you collect all dogcrows or catcrows.
+﻿[Generic Mod Config Menu﻿](https://www.nexusmods.com/stardewvalley/mods/5098) by [spacechase0](https://www.nexusmods.com/stardewvalley/users/34250790)﻿ - For easy and user-friendly configuration. You can directly set configs in the configs.json of this mod, but GMCM is recommended and supports live changes in-game.
+[Button's Extra Trigger Action Stuff (BETAS)﻿](https://www.nexusmods.com/stardewvalley/mods/27100)) by [Spiderbuttons](https://www.nexusmods.com/stardewvalley/users/177615852)﻿ - For better triggers regarding the letter sent when you collect all dogcrows or catcrows.
 
 ## Translations
 Supported languages are listed below.
 - English
 - Korean
 
-If you want to translate this mod, please reach out through the comments on [Nexus]([url](https://www.nexusmods.com/stardewvalley/mods/35243))!
+If you want to translate this mod, please reach out through the comments on [Nexus](https://www.nexusmods.com/stardewvalley/mods/35243)!
 
 ## Links
-[Nexus]([url](https://www.nexusmods.com/stardewvalley/mods/35243))
-[Naver]([url](https://cafe.naver.com/starvall?iframe_url_utf8=%2FArticleRead.nhn%253Fclubid%3D28468938%2526articleid%3D495020))
+[Nexus](https://www.nexusmods.com/stardewvalley/mods/35243)
+[Naver](https://cafe.naver.com/starvall?iframe_url_utf8=%2FArticleRead.nhn%253Fclubid%3D28468938%2526articleid%3D495020)
 Discord: @sugarsbt
